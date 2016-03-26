@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.omsairam.project0.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/titleText"
+            android:id="@+id/LargeText1"
+            android:layout_gravity="center_horizontal"
+            />
+    </FrameLayout>
+    <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/frameLayout_height_margin">
+         <Button
+             android:layout_width="@dimen/button_horizontal_margin"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:text="@string/firstApp"
+             android:textAllCaps="true"
+             android:background="#ff6d00"
+             android:id="@+id/button1"
+             android:onClick="onButtonClick"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height_margin">
+        <Button
+            android:layout_width="@dimen/button_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/secondApp"
+            android:textAllCaps="true"
+            android:background="#ff6d00"
+            android:id="@+id/button2"
+            android:onClick="onButtonClick"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height_margin">
+        <Button
+            android:layout_width="@dimen/button_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/thirdApp"
+            android:textAllCaps="true"
+            android:background="#ff6d00"
+            android:id="@+id/button3"
+            android:onClick="onButtonClick"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height_margin">
+        <Button
+            android:layout_width="@dimen/button_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/fourthApp"
+            android:textAllCaps="true"
+            android:background="#ff6d00"
+            android:id="@+id/button4"
+            android:onClick="onButtonClick"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height_margin">
+        <Button
+            android:layout_width="@dimen/button_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/fifthApp"
+            android:textAllCaps="true"
+            android:background="#ff6d00"
+            android:id="@+id/button5"
+            android:onClick="onButtonClick"/>
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayout_height_margin">
+        <Button
+            android:layout_width="@dimen/button_horizontal_margin"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="@string/sixthApp"
+            android:textAllCaps="true"
+            android:background="#ef5166"
+            android:id="@+id/button6"
+            android:onClick="onButtonClick"/>
+    </FrameLayout>
+</LinearLayout>
